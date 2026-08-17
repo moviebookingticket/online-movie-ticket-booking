@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2026-08-17T00:00:00.000Z" agent="Claude" version="24.7.5" type="device">
+  <diagram name="Use Case Diagram" id="usecase-diagram">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="boundary" value="Online Movie Ticket Booking System" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fontStyle=1;fillColor=none;strokeColor=#37485F;arcSize=5;" vertex="1" parent="1"><mxGeometry x="300" y="20" width="820" height="980" as="geometry"/></mxCell>
+        <mxCell id="actor_customer" value="Customer" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;" vertex="1" parent="1"><mxGeometry x="10" y="410" width="120" height="30" as="geometry"/></mxCell>
+        <mxCell id="actor_admin" value="Admin /&#10;Cinema Staff" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;" vertex="1" parent="1"><mxGeometry x="0" y="850" width="150" height="50" as="geometry"/></mxCell>
+        <mxCell id="uc_view" value="View Booking History" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7F9DB9;fontSize=13;" vertex="1" parent="1"><mxGeometry x="350" y="90" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="uc_browse" value="Browse Movies &amp;&#10;Showtimes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7F9DB9;fontSize=13;" vertex="1" parent="1"><mxGeometry x="350" y="210" width="260" height="80" as="geometry"/></mxCell>
+        <mxCell id="uc_book" value="Book Ticket" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7F9DB9;fontSize=13;" vertex="1" parent="1"><mxGeometry x="350" y="340" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="uc_cancel" value="Cancel Booking" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7F9DB9;fontSize=13;" vertex="1" parent="1"><mxGeometry x="350" y="480" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="uc_login" value="Register / Login" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7F9DB9;fontSize=13;" vertex="1" parent="1"><mxGeometry x="350" y="610" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="uc_report" value="Generate Sales&#10;Reports" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE6C7;strokeColor=#D79B00;fontSize=13;" vertex="1" parent="1"><mxGeometry x="350" y="730" width="260" height="80" as="geometry"/></mxCell>
+        <mxCell id="uc_manage" value="Manage Movies &amp;&#10;Showtimes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE6C7;strokeColor=#D79B00;fontSize=13;" vertex="1" parent="1"><mxGeometry x="350" y="840" width="260" height="80" as="geometry"/></mxCell>
+        <mxCell id="uc_seats" value="Select Seats" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7F9DB9;fontSize=13;" vertex="1" parent="1"><mxGeometry x="800" y="140" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="uc_pay" value="Make Payment" style="ellipse;whiteSpace=wrap;html=1;fillColor=#EAF2FB;strokeColor=#7F9DB9;fontSize=13;" vertex="1" parent="1"><mxGeometry x="800" y="340" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="uc_refund" value="Process Refund" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE6C7;strokeColor=#D79B00;fontSize=13;" vertex="1" parent="1"><mxGeometry x="800" y="700" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="ext_paygw" value="Payment&#10;Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#666666;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1180" y="335" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="e_cust_0" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_customer" target="uc_view"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_cust_1" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_customer" target="uc_browse"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_cust_2" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_customer" target="uc_book"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_cust_3" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_customer" target="uc_cancel"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_cust_4" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_customer" target="uc_login"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_admin_0" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_admin" target="uc_login"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_admin_1" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_admin" target="uc_report"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_admin_2" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;" edge="1" parent="1" source="actor_admin" target="uc_manage"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_admin_refund" style="edgeStyle=none;html=1;endArrow=block;endFill=0;strokeColor=#666666;curved=1;rounded=0;exitX=1;exitY=1;entryX=0.3;entryY=1;" edge="1" parent="1" source="actor_admin" target="uc_refund"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="120" y="1290"/><mxPoint x="900" y="1290"/></Array></mxGeometry></mxCell>
+        <mxCell id="e_inc1" value="&lt;&lt;include&gt;&gt;" style="edgeStyle=none;html=1;endArrow=open;endFill=1;dashed=1;strokeColor=#666666;fontSize=12;" edge="1" parent="1" source="uc_book" target="uc_seats"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_inc2" value="&lt;&lt;include&gt;&gt;" style="edgeStyle=none;html=1;endArrow=open;endFill=1;dashed=1;strokeColor=#666666;fontSize=12;" edge="1" parent="1" source="uc_book" target="uc_pay"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_inc3" value="&lt;&lt;include&gt;&gt;" style="edgeStyle=none;html=1;endArrow=open;endFill=1;dashed=1;strokeColor=#666666;fontSize=12;" edge="1" parent="1" source="uc_pay" target="ext_paygw"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e_inc4" value="&lt;&lt;include&gt;&gt;" style="edgeStyle=none;html=1;endArrow=open;endFill=1;dashed=1;strokeColor=#666666;fontSize=12;" edge="1" parent="1" source="uc_cancel" target="uc_refund"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
