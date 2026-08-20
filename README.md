@@ -47,4 +47,4 @@ The project follows an organized software development process where tasks are pl
 
 Testing is an important part of the project and is conducted to ensure that the system functions according to its requirements. Test cases are prepared to verify different features and identify any issues that may affect the usability and functionality of the system.
 
-For detailed testing information, test cases, and results, see the documentation in the `/testing` directory.
+For detailed testing information, test cases, and results or lots of things, see the documentation in the `/testing` directory.
